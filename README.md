@@ -32,7 +32,7 @@ There's an experimental patch for windows in this [PR](https://github.com/udacit
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./pid -<Kp> -<Ki> -<kd>`.
+4. Run it: `./pid`.
 
 
 ## Theory of PID Control
@@ -79,8 +79,6 @@ oscillations present, the PID controller provides good enough stability for the 
 the project could be made by adding a second controller for speed but will leave it for a future time. Overall,
 this project was great to understand the mechanics of PID controllers and how each factor plays a role in creating
 a stable system.
-
-To run the my version of the project run with `./pid -0.11 -0.004 -1.8`.
 
 Here are some samples of the simulator:
 

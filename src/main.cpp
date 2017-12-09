@@ -33,9 +33,13 @@ int main(int argc, char * argv[])
   uWS::Hub h;
 
   // set PID parameters based on command line inputs
-  double init_Kp = atof(argv[1]);
-  double init_Ki = atof(argv[2]);
-  double init_Kd = atof(argv[3]);
+  //double init_Kp = atof(argv[1]);
+  //double init_Ki = atof(argv[2]);
+  //double init_Kd = atof(argv[3]);
+
+  double init_Kp = -0.11;
+  double init_Ki = -0.004;
+  double init_Kd = -1.8;
 
   // initialize PID
   PID pid;
